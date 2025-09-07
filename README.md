@@ -50,12 +50,12 @@ A modular, responsive to-do list web app with dark mode, task filtering, and loc
 ## 👤 Author
 
 **Affan**  
-_First project. Feedback welcome!_
-## This is my first GitHub project
+- GitHub: [@bugfinn](https://github.com/bugfinn)  
+- First project — feedback welcome!
 
 
 ---
 
 ## 📄 License
 
-MIT
+This project is licensed under the [MIT License](./LICENSE).
