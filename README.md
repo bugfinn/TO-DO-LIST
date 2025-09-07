@@ -28,7 +28,7 @@ A modular, responsive to-do list web app with dark mode, task filtering, and loc
 
 ---
 
-## ⚡ Getting Startedu
+## ⚡ Getting Started
 
 1. **Clone the repository:**
    ```
