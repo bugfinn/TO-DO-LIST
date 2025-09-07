@@ -27,6 +27,11 @@ A modular, responsive to-do list web app with dark mode, task filtering, and loc
 - Local Storage API
 
 ---
+## 🚀 Live Demo
+
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-Visit-blue)](https://bugfinn.github.io/TO-DO-LIST/)
+
+---
 
 ## ⚡ Getting Started
 
