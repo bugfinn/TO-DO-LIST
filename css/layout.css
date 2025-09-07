@@ -1,0 +1,9 @@
+/* Main layout structure */
+.layout {
+    display: flex;
+    height: 100vh;
+    background-color: rgb(148, 168, 174);
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}

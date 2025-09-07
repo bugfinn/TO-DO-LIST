@@ -1,0 +1,84 @@
+/* Reusable components and UI elements */
+#theme-toggle {
+    position: static;
+    margin: 0;
+    background: transparent;
+    border: 2px solid #ccc;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease;
+}
+
+#theme-toggle:hover {
+    border-color: #1e2327;
+    background: rgba(0, 123, 255, 0.1);
+}
+
+#theme-toggle i {
+    color: #666;
+    font-size: 16px;
+}
+
+#theme-toggle:hover i {
+    color: #0d0e0f;
+}
+
+.home-welcome {
+    text-align: center;
+    padding: 40px 20px;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.home-welcome h1 {
+    color: #2c2c2c;
+    margin-bottom: 15px;
+    font-size: 2.5em;
+    font-weight: 300;
+}
+
+.home-welcome p {
+    color: #555;
+    font-size: 1.2em;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+.home-welcome button {
+    padding: 12px 24px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    color: #d1d5db;
+    transition: all 0.2s ease;
+    padding: 5px;
+    border-radius: 4px;
+    font-size: 16px;
+    transition: all 0.3s ease;
+    margin: 0 7px;
+}
+
+.home-welcome button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+
+.home-welcome .fa-clipboard-list {
+    display: block;
+    margin: 0 auto 20px auto;
+    font-size: 80px;
+    color: #4a90e2;
+}
+
+.home-icon-container {
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 120px;
+}
