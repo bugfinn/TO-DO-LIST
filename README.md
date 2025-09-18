@@ -27,8 +27,13 @@ A modular, responsive to-do list web app with dark mode, task filtering, and loc
 - Local Storage API
 
 ---
+## 🚀 Live Demo
 
-## ⚡ Getting Startedu
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-Visit-blue)](https://bugfinn.github.io/TO-DO-LIST/)
+
+---
+
+## ⚡ Getting Started
 
 1. **Clone the repository:**
    ```
@@ -50,12 +55,12 @@ A modular, responsive to-do list web app with dark mode, task filtering, and loc
 ## 👤 Author
 
 **Affan**  
-_First project. Feedback welcome!_
-## This is my first GitHub project
+- GitHub: [@bugfinn](https://github.com/bugfinn)  
+- First project — feedback welcome!
 
 
 ---
 
 ## 📄 License
 
-MIT
+This project is licensed under the [MIT License](./LICENSE).
