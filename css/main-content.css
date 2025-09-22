@@ -1,0 +1,60 @@
+/* Main content area styles */
+
+.main-content {
+    border-left: none !important;
+    border: none !important;
+    align-items: center;
+    /* REMOVED: display: flex; flex-direction: column; flex: 1; */
+    width: 100%;
+    padding: 20px;
+    background: #373B44;
+    background: linear-gradient(to right, #b0bfda, #8099d1);
+}
+
+/* Keep all your other existing styles as they are */
+.main-content.all-tasks-view {
+    background-color: #ffffff;
+}
+
+.all-tasks-header {
+    padding: 20px;
+    border-bottom: 1px solid #dee2e6;
+    background-color: #fff;
+    margin: -20px -20px 20px -20px;
+}
+
+.all-tasks-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #495057;
+    margin: 0;
+}
+
+.day-header h2 {
+    color: #262525 !important;
+    margin: 0;
+    font-weight: 300;
+    font-size: 1.8em;
+}
+
+.day-header p {
+    color: #403e3e !important;
+    margin: 10px 0 0 0;
+    font-size: 1em;
+}
+
+.text-state {
+    text-align: center;
+    color: #191919ff;
+    padding: 20px;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.texted-state {
+    text-align: center;
+    color: #191919ff;
+    padding: 20px;
+    font-size: 25px;
+    font-weight: 500;
+}

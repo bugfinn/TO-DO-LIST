@@ -1,0 +1,92 @@
+/* Input containers, buttons, and form elements */
+
+.second-container input[type="text"] {
+    width: 100%;
+    max-width: 600px;
+    padding: 10px 10px 10px 40px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    border-style: groove;
+    outline: none;
+}
+
+.input-container {
+    position: relative;
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    
+ 
+}
+.input-container input{
+
+  width: 100%;
+    padding: 16px 60px 16px 20px;
+    border: none;
+    border-radius: 25px;
+    background: #f8f9fa;
+    font-size: 16px;
+    outline: none;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+    transition: all 0.3s ease;
+
+}
+.input-container input:focus {
+
+background: white;
+box-shadow: 0 8px 25px rgba(0, 0, 0,0.15);
+transform: translateY(-2px);
+}
+
+
+.clear-completed-btn {
+    margin-bottom: 20px;
+    padding: 12px 24px;
+    min-width: 10px;
+    background: linear-gradient(to right, #6986bd, #708ece);
+    color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 60;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 10px rgba(17, 17, 17, 0.3);
+}
+
+.clear-completed-btn:hover {
+    border-radius: 80px;
+    transform: scale(1.02);
+    background: linear-gradient(135deg, #4a5568 0%, #2d3748 100%);
+}
+/* Sticky bottom input - add this to the end of your forms.css */
+.second-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    width: 100%;
+    margin: 0 auto;
+    border-top:none;
+    flex-shrink: 0;
+    background: transparent;
+    box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.1);
+    z-index: 10;
+    border-radius: 50px;
+}
+
+/* Keep all your existing input styles - just add these for the button */
+.add-task-icon {
+    position: absolute;
+    left: 12px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #666;
+    font-size: 20px;
+    cursor: pointer;
+    transition: color 0.2s;
+}
+
+.add-task-icon:hover {
+    color: #202020;
+}

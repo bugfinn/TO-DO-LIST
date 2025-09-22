@@ -1,0 +1,155 @@
+/* Dark mode and theme styles */
+body.dark {
+    background: #2d2d2d;
+    color: white;
+}
+
+.dark .sidebar {
+    background: #2d2d2d;
+    border-right: 1px solid #4a5568;
+}
+
+.dark .main-content {
+    background: #2e2e2e;
+}
+
+.dark .sidebar a {
+    color: white;
+       
+}
+
+.dark .sidebar a:hover {
+    background-color: #4a4a4a;
+    color: white;
+
+}
+
+.dark .to-search {
+    background: #fffefe;
+    color: #3a3a3a;
+    border-color: #555;
+}
+
+.dark .to-search::placeholder {
+    color: #3a3a3a;
+}
+
+.dark .second-container input[type="text"] {
+    background: #ffffff;
+    color: rgb(0, 0, 0);
+    border-color: #555;
+}
+
+.dark .second-container input[type="text"]::placeholder {
+    color: #3a3a3a;
+}
+
+.dark .task-item {
+    background: #323130;
+    border: 1px solid #484644;
+    color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.dark .task-item:hover {
+    border-color: #0078d4;
+    box-shadow: 0 4px 8px rgba(0, 120, 212, 0.25);
+}
+
+.dark .task-text {
+    color: #ffffff;
+}
+
+.dark .add-task-icon {
+    color: #494949;
+}
+
+.dark .search-icon {
+    color: #494949;
+}
+
+.dark .delete-icon {
+    color: #ccc;
+}
+
+.dark .delete-icon:hover {
+    color: #ff6b6b;
+    background-color: rgba(255, 107, 107, 0.1);
+}
+
+.dark .clear-completed-btn {
+    background: linear-gradient(to right, #4a5568, #364154);
+    color: #e2e8f0;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+}
+
+.dark .clear-completed-btn:hover {
+    background: linear-gradient(135deg, #2d3748 0%, #1a202c 100%);
+    color: white;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.6);
+}
+
+.dark .modal-container {
+    background: #2d3748;
+    color: white;
+}
+
+.dark .text-state {
+    color: white;
+}
+
+.dark .texted-state {
+    color: white;
+}
+
+
+
+.dark .settings-panel {
+    background: rgba(0,0,0,0.2);
+    border-color: #4a5568;
+}
+
+.dark .settings-label {
+    color: #ddd;
+}
+
+body.dark #theme-toggle {
+    border-color: #555;
+}
+
+body.dark #theme-toggle i {
+    color: #ccc;
+}
+
+body.dark #theme-toggle:hover {
+    border-color: #ffc107;
+    background: rgba(255, 193, 7, 0.1);
+}
+
+body.dark #theme-toggle:hover i {
+    color: #ffc107;
+}
+
+.dark .home-welcome h1 {
+    color: #ffffff;
+}
+
+.dark .home-welcome p {
+    color: #e0e0e0;
+}
+
+.dark .home-welcome .fa-clipboard-list {
+    color: #66b3ff;
+}
+
+.dark .day-header h2 {
+    color: #f4f4f4 !important;
+}
+
+.dark .day-header p {
+    color: #e0e0e0 !important;
+}
+
+.dark .day-header {
+    border-bottom-color: #4d4c4c !important;
+}
